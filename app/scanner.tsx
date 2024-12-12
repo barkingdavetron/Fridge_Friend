@@ -14,7 +14,7 @@ export default function App() {
       return;
     }
 
-    // Let the user take a phot
+    // Let the user take a photp
     const result = await ImagePicker.launchCameraAsync({
       allowsEditing: true,
       aspect: [4, 3],
